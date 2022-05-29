@@ -1,0 +1,17 @@
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+TextButton.BorderColor3 = Color3.fromRGB(255, 170, 255)
+TextButton.Position = UDim2.new(0.251221925, 0, 0.26096034, 0)
+TextButton.Size = UDim2.new(0, 57, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "HB"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 29.000
